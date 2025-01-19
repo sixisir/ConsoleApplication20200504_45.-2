@@ -21,7 +21,7 @@ int jump(vector<int>& nums) {
 	int count = 0;
 	int position = 0;
 	int a=65535;
-	//测试github上传的内容
+	//测试github上传的内容？？？？？？？？？？？？？
 	for (int i = 1; i <= nums[position]; i++)
 	{
 		a = min(a, min_nums(nums, count, position + i));
